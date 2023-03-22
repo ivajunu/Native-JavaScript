@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sida där man kan söka efter böcker">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="search.css">
+  <title>Bokmalens sökruta</title>
+</head>
+
+<body>
+  <header class="header-rest">
+    <h1 class="h1-header-rest">Bokmalens bokhörna</h1>
+  </header>
+
+  <nav class="navigation">
+    <ul class="navigation-list">
+      <li><a class="navigation-links" href="index.html">Hem</a></li>
+      <li><a class="navigation-links" href="categories.html">Kategorier</a></li>
+      <li><a class="navigation-links" href="search.html">Sök</a></li>
+
+    </ul>
+  </nav>
+  <main class="form">
+    <section class="search">
+      <h2>Här kan du söka efter böcker!</h2>
+      <label for="booksearch">Sök efter böcker:</label>
+      <input type="text" id="booksearch" placeholder="ex, Lord of the rings">
+      <button id="searchbutton">Sök!</button>
+      <div class="search-results"></div>
+      <ul id="book-ul"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h2>Kontakt:</h2>
+    <ul>
+      <li>Webbsidan gjord av Ivanna Junuzovic</li>
+      <li>Telefon: 070 000 000 00</li>
+    </ul>
+  </footer>
+
+  <script src="search.js"></script>
+</body>
+
+</html>

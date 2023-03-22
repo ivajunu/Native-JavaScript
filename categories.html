@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sida där man kan se olika böcker i katergorier">
+  <link rel="stylesheet" href="categories.css">
+  <link rel="stylesheet" href="shared.css">
+  <title>Bokmalens Kategorier</title>
+</head>
+
+<body>
+  <header class="header-rest">
+    <h1 class="h1-header-rest">Bokmalens bokhörna</h1>
+  </header>
+
+
+  <nav class="navigation">
+    <ul class="navigation-list">
+      <li><a class="navigation-links" href="index.html">Hem</a></li>
+      <li><a class="navigation-links" href="categories.html">Kategorier</a></li>
+      <li><a class="navigation-links" href="search.html">Sök</a></li>
+
+    </ul>
+  </nav>
+
+  <main class="main-categories">
+
+    <section class="info-categories">
+      <h2>Populära böcker i olika kategorier!</h2>
+      <p>Här nedför har vi listat populära böcker i fyra olika kategorier, klicka på bilderna och se om du har läst dom!
+      </p>
+      <p>Om du inte hittar det du söker här, kan du testa att <a href="search.html">söka</a> efter böcker.</p>
+    </section>
+
+    <div class="all-categories">
+      <section class="category-love">
+        <h3>Kärlek</h3>
+        <input type="image" src="Bilder/love.jpg" id="lovebutton" alt="Bild på hjärta">
+        <ul id="love_book">
+          <li class="love-li"></li>
+        </ul>
+      </section>
+
+      <section class="category-action">
+        <h3>Action</h3>
+        <input type="image" src="bilder/action.jpg" id="actionbutton" alt="Bild på bok med hund">
+        <ul id="action_book">
+          <li class="action-li"></li>
+        </ul>
+      </section>
+
+
+      <section class="category-thriller">
+        <h3>Thriller</h3>
+        <input type="image" src="bilder/thriller.jpg" id="thrillerbutton" alt="Bild på övergivet hus">
+        <ul id="thriller_book">
+          <li class="thriller-li"></li>
+        </ul>
+      </section>
+
+      <section class="category-classics">
+        <h3>Klassiker</h3>
+        <input type="image" src="bilder/classic.jpg" id="classicsbutton" alt="Bild på gammal bok med en klocka">
+        <ul id="classics_book"></ul>
+      </section>
+
+    </div>
+  </main>
+
+
+
+
+  <footer class="footer">
+    <h2>Kontakt:</h2>
+    <ul>
+      <li>Webbsidan gjord av Ivanna Junuzovic</li>
+      <li>Telefon: 070 000 000 00</li>
+    </ul>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
